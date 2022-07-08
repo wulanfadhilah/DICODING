@@ -1,0 +1,255 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.button {
+	padding: 10px;
+}
+ 
+ul{
+    list-style:none;
+}
+ 
+a{
+    text-decoration:none;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #26232c;
+    text-align: center;
+    font-family: mv boli;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:30px;
+    background-color:#9181a1;
+    padding:0px 5%;
+     
+}
+nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin:30px;
+    font-family:calibri;
+    color:#505050;
+    font-size: 16px;
+    font-weight:700;
+}
+ 
+.logo{
+    font-family:calibri;
+    color:#1d170f;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 13.5px;
+    width:100%;
+    height: 100vh;
+    position: relative;
+}
+
+.content{
+    flex-grow: 1;
+    right: 20%;
+    height: 100vh;
+    width: 70%;
+    background-color: #ffffff;
+}
+
+aside{
+    position: absolute;
+    left: 82%;
+    width: 400px;
+    background-color: #ffffff;
+    transform: translateX(-43%);
+    border: solid;
+}
+aside h1{
+    text-align: center;
+}
+
+aside p{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gambar{
+    height: 400px;
+    bottom: 50px;
+    left: 100%;
+    transform: translateX(+20%);
+}
+
+.text-content{
+    position: absolute;
+    left: 15%;
+    top: 47%;
+    transform: translate(-15%, -47%);
+}
+
+.text-content p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 20px;
+}
+ 
+.text-content p:nth-child(2){
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+ 
+.text-content p:nth-child(3){
+    font-family: segoe ui;
+    color: #403e3e;
+    font-size: 16px;
+    line-height: 20px;
+}
+.text-content p{
+    line-height: 0px;
+    margin: 50px 0px 20px;
+}
+  
+.text-content button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+ 
+.cv{
+    background-color: #000000;
+    color: #e0ded5;
+    border: none;
+}
+ 
+article{
+    flex-grow: 1;
+    height:550px;
+    background-color:#877ca5;
+    padding: 2% 10% 0px 10%;
+}
+ 
+.aboutme-text h1{
+    font-family: calibri;
+    font-weight:bold;
+    color:#1d1c1d;
+    font-size:30px;
+    line-height:0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+ 
+.aboutme-text p{
+    font-family:calibri;
+    color:#353535;
+	text-align: center;
+}
+ 
+.aboutme-text{
+    margin:50px 0px;
+}
+ 
+.kotak-content{
+    display:flex;
+    justify-content:space-between;
+    left: 20%;
+}
+
+.kotak1,.kotak2,.kotak3,.kotak4{
+    width: 270px;
+    height:280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+	background-color: #6e6585;
+    margin: 0px 4px;
+    text-align: center;         
+}
+  
+.kotak1 h1,.kotak2 h1,.kotak3 h1,.kotak4 h1{
+    color:#332c25;
+    font-family: serif;
+    font-size: 23px;
+    line-height:0px;
+}
+ 
+.kotak1 p,.kotak2 p,.kotak3 p,.kotak4 p{
+    font-family: calibri;
+    color:#2e2d2d;
+    text-align:center;
+    width: 230px;
+    margin:0px 0px 20px 0px;
+}
+ 
+footer{
+    bottom: 10;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #26232c;
+    margin-top:570px;
+}
+ 
+footer p{
+    font-family: calibri;
+}
+ 
+footer p:nth-child(1){
+    font-size: 16px;
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:10px;
+    text-align: center;
+}
+ 
+footer p:nth-child(2){
+    font-size: 16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align: center;
+}
+ 
+.penutup{
+    color:#565555;
+    font-size: 16px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 513px) {
+    .button {
+        padding: 10px;
+    }
+    
+}
